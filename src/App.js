@@ -1,10 +1,10 @@
 import "./App.css";
-import { ParentTwo } from "./components/Optimization/ParentTwo";
+import { ContextParent } from "./components/Context/ContextParent";
 
 function App() {
 	return (
 		<div className="App">
-			<ParentTwo />
+			<ContextParent />
 		</div>
 	);
 }
