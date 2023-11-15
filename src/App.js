@@ -1,10 +1,10 @@
 import "./App.css";
-import { UseReducer } from "./components/UseReducer/UseReducer";
+import { Parent } from "./components/ParentChild/Parent";
 
 function App() {
 	return (
 		<div className="App">
-			<UseReducer />
+			<Parent />
 		</div>
 	);
 }
